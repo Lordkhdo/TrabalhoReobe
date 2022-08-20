@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="body_containers ">
+    <div class="centralizar-container">
+    <div class="box" id="display">
+
+        <h1 class="head">Éster</h1>
+        <p class="font-mopa">bem vindo ao jogo espero que se divirta, enquanto testa seus conhecimentos</p>
+        <div class="botoes">
+            <input class="botao" type="button" value="inicio" id="inicio">
+            <input class="botao" type="button" value="tutorial" id="tutorial" >
+            <input class="botao" type="button" value="creditos" id="creditos">
+            
+        </div>
+    </div><!-- box -->
+
+
+    <div class="iniciargame hiden" id="INICIAR"><!-- --------------INICIO---------------- -->
+        <h1 class="font-header">esta e a primeira fase, encontre a certa</h1>
+        <div class="alinhar">
+            <input class="botao btn1" id="ProxPag1" type="button" value="errada">
+            <input class="botao btn1" id="IrParaOerro1" type="button" value="certa">
+            <input class="botao btn1" id="IrParaOerro2" type="button" value="errada">
+            <input class="botao btn1" id="IrParaOerro3" type="button" value="errada">
+        </div>
+
+        <!-- <input class="botao" type="button" value="voltar" id="VoltarFase1"> -->
+    </div><!-- --------------INICIO---------------- -->
+
+
+
+    <div class="tutorial hiden" id="TUTORIAL"><!-- --------------TUTORIAL---------------- -->
+        <h1 class="head">Éster</h1>
+        <p>sinto muito meu nobre, mas o jogo e intuitivo, se vira ai ;)</p>
+        <input class="botao" type="button" value="voltar" id="Voltar2">
+    </div>                                        <!-- --------------TUTORIAL---------------- -->
+
+    <div class="creditos hiden font-mopa" id="Creditos">     <!-- --------------CREDITOS---------------- -->
+        <p>todos que trabalharam no projeto:</p>
+        <p class="font">pedro,milene,gabriel,davi</p>
+        <input class="botao " type="button" value="voltar" id="Voltar3">
+    </div>                                         <!-- --------------CREDITOS---------------- -->
+
+    <div class="VoceErrou hiden" id="Pagerra">
+        <p>ora ora parece que alguem errou, boa sorte kk </p>
+        <input class="botao" type="button" value="voltar" id="VoltarFase1">
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="Fase2 hiden" id="Fase2">
+        <h1 class="font-header" id="mopa2">que elemento e esse?</h1>
+        <div class="alinhar">
+            <input class="botao btn1" id="1" type="button" value="Etanoato de fenila" style="font-size:10px ;" >
+            <input class="botao btn1" id="2" type="button" value="120px-Etanoato_de_fenila.png" style="font-size:10px ;">
+            <input class="botao btn1" id="respostaCerta" type="button" value="So deus sabe" style="font-size:12px ;">
+            <input class="botao btn1" id="4" type="button" value="cachaça">
+
+    </div> </div>
+<!-- ----------------------------------------fase3---------------------------------------------------------- -->
+    <div class="Fase3 hiden" id="Fase3">
+        <div id="mopa3">
+
+        <h1 class="font-header" id="texto1">que elemento e esse?</h1>
+        <p id="texto2">(agora e serio)</p> 
+
+        </div>
+        <div class="alinhar">
+            <input class="botao btn1" id="E1" type="button" value="So deus sabe(1)" style="font-size:12px ;" >
+            <input class="botao btn1" id="E2" type="button" value="Etanoato de fenila" style="font-size:12px ;" >
+            <input class="botao btn1" id="E3" type="button" value="benzoato de fetila" style="font-size:12px ;" >
+            <input class="botao btn1" id="respostaCerta300" type="button" value="benzoato de metila" style="font-size:10px ;" >
+
+    </div> </div>
+<!-- ----------------------------------------fase4---------------------------------------------------------- -->
+    <div class="Fase4 hiden" id="Fase4">
+        <h1 class="font-header">esta e a quarta fase</h1>
+        <div class="alinhar">
+            <input class="botao btn1" id="7" type="button" value="pergunta1">
+            <input class="botao btn1" id="9" type="button" value="pergunta0">
+            <input class="botao btn1" id="respostaCert130" type="button" value="pergunta2">
+            <input class="botao btn1" id="8" type="button" value="pergunta3">
+    </div> </div>
+<!-- ----------------------------------------fase5---------------------------------------------------------- -->
+    <div class="Fase5 hiden" id="Fase5">
+        <h1 class="font-header">Qual método que se obtém o Éster?
+        </h1>
+        <div class="alinhar">
+            <input class="botao btn1" id="77" type="button" value="Hidrólise" style="font-size:12px ;">
+            <input class="botao btn1" id="88" type="button" value="Saponificação" style="font-size:12px ;">
+            <input class="botao btn1" id="respostaCert1300" type="button" value="Esterificação" style="font-size:12px ;">
+            <input class="botao btn1" id="99" type="button" value="Saponitificação" style="font-size:12px ;">
+    </div> </div>
+<!-- ----------------------------------------fase6---------------------------------------------------------- -->
+<div class="Fase5 hiden" id="Fase6">
+    <h1 class="font-header">Qual e o nome do primeiro elemento apresentado?</h1>
+    <div class="alinhar">
+        <input class="botao btn1" id="fase6r1" type="button" value="entanoasto de sódio"style="font-size:12px ;">
+        <input class="botao btn1" id="fase6r2" type="button" value="NITROGENIO" style="font-size:12px ;">
+        <input class="botao btn1" id="fase6r3" type="button" value="Etanoato de fenila" style="font-size:12px ;">
+        <input class="botao btn1" id="fase6r4" type="button" value="Benzoato de metila"style="font-size:12px ;">
+</div> </div>
+<!-- ----------------------------------------fase7---------------------------------------------------------- -->
+<div class="Fase5 hiden" id="Fase7">
+    <h1 class="font-header ">Quais são os 3 tipos de ésteres importantes?</h1>
+    <div class="alinhar depende">
+        <input class="botao" id="rescerta" type="button" value="Lípideos, Flavorizantes e Poliésteres." style="font-size:12px ;" >
+        <input class="botao" id="azul" type="button" value="Propanoato, Acetato e Butanoato" style="font-size:12px ;" >
+        <input class="botao" id="roxo" type="button" value="Resposta 4" style="font-size:12px ;" >
+        <input class="botao" id="cinza" type="button" value="Formiato, Lípideos e Poliésteres" style="font-size:12px ;"  >
+</div> </div>
+<!-- ----------------------------------------fase8---------------------------------------------------------- -->
+<div class="Fase5 hiden" id="Fase8">
+    <h1 class="font-header">parabéns você terminou o jogo</h1>
+    <div class="alinhar">
+        <input class="botao " id="Voltartudinho" type="button" value="voltar ao inicio do jogo" style="margin:0 auto ;">
+
+</div> </div>
+<!-- ----------------------------------------fase9---------------------------------------------------------- -->
+
+
+
+
+
+
+    </div><!-- centralizar-container LarguraBox -->
+</div><!-- centralizar_containers  -->
+
+
+<script src="main.js"></script>
+<script src="fase1.js"></script>
+<script src="fase2.js"></script>
+<script src="fase3.js"></script>
+<script src="fase4.js"></script>
+<script src="fase5.js"></script>
+<script src="fase6.js"></script>
+<script src="fase7.js"></script>
+<script src="fase8.js"></script>
+</body>
+</html>
