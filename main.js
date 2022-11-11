@@ -17,18 +17,18 @@ creditos.addEventListener('click',AbrirCreditos)               //entrar
 //interaçao entrar
 
 function AbrirInicio(){
-    console.log('dasdas')
+    
     Inicio.classList.toggle('hiden')
     BoxInicio.classList.remove('hiden')
 }
 function AbrirTutorial(){
-    console.log('dasdas')
+
     Inicio.classList.toggle('hiden')
     BoxTutorial.classList.remove('hiden')
 }
 
 function AbrirCreditos(){
-    console.log('dasdas')
+
     Inicio.classList.toggle('hiden')
     BoxCreditos.classList.remove('hiden')
 }
