@@ -42,6 +42,7 @@ body, html{
     color: white;
     border-radius: 2px;
     cursor: pointer;
+    min-height: 50px;
 }
 .botao:first-child{
     margin-top: 0px;
